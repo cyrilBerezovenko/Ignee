@@ -1,0 +1,27 @@
+@font-face {
+    src: url("../../resources/fonts/BebasNeue Bold.otf");
+    font-family: "BebasNeue Bold"; }
+@font-face {
+    src: url("../../resources/fonts/BebasNeue Book.otf");
+    font-family: "BebasNeue Book"; }
+@font-face {
+    src: url("../../resources/fonts/MyriadPro-Regular.otf");
+    font-family: "MyriadPro-Regular"; }
+@font-face {
+    src: url("../../resources/fonts/Ubuntu-Bold.ttf");
+    font-family: "Ubuntu-Bold"; }
+@font-face {
+    src: url("../../resources/fonts/Ubuntu-Light.ttf");
+    font-family: "Ubuntu-Light"; }
+@font-face {
+    src: url("../../resources/fonts/Ubuntu-Medium.ttf");
+    font-family: "Ubuntu-Medium"; }
+@font-face {
+    src: url("../../resources/fonts/Ubuntu-R.ttf");
+    font-family: "Ubuntu-R"; }
+@font-face {
+    src: url("../../resources/fonts/UniviaPro-Medium.otf");
+    font-family: "UniviaPro-Medium"; }
+@font-face {
+    src: url("../../resources/fonts/UniviaPro-Ultra.otf");
+    font-family: "UniviaPro-Ultra"; }

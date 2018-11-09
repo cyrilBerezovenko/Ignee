@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(202, 202, 255, 0.74);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    padding: 4px;
+    background: white;
+}
+
+#header_logo {
+    font-family: UniviaPro-Medium, sans-serif;
+    font-size: 50px;
+    color: #f9f9f9;
+    text-shadow: 6px -1px 10px #4674b4;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "UniviaPro-Medium", sans-serif;
+    font-size: 13px;
+    color: #2e6ba1;
+}
+
+.header_menu-item {
+    margin: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+#main {
+    margin-top: 100px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 72px;
+    color: #ffb652;
+    font-family: "BebasNeue Book", sans-serif;
+    font-weight: 200;
+}
+
+.about_item {
+    margin: 120px 0 150px;
+}
+
+.about_item-heading {
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 45px;
+    color: white;
+    background: rgba(255, 159, 23, 0.74);
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about_item-heading p {
+    display: inline-block;
+}
+
+.about_item-heading img {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#about .about_item:nth-child(2) .about_item-heading {
+    width: 30%;
+    padding: 15px 15px 15px 200px;
+    margin-left: 40%;
+}
+
+#about .about_item:nth-child(3) .about_item-heading {
+    width: 25%;
+    padding: 20px 0px 15px 20px;
+    margin-left: 15%;
+    background: rgba(79, 204, 164, 0.71);
+}
+#about .about_item:nth-child(3) .about_item-heading img {
+    margin-left: 14%;
+}
+
+#about .about_item:nth-child(4) .about_item-heading {
+    padding: 17px 0 17px 50px;
+    margin-left: 50%;
+}
+
+.about_item-container {
+    font-family: "Ubuntu-Light", sans-serif;
+    font-size: 13px;
+    background: white;
+    font-weight: 400;
+    color: #616161;
+}
+
+.about_item-container p {
+    margin: 10px 0;
+    line-height: 17px;
+}
+
+.about_item-container li {
+    margin: 10px 0;
+}
+
+#about .about_item:nth-child(2) .about_item-container {
+    padding: 30px 120px 30px 40px;
+    margin: 140px 0 100px 50%;
+}
+
+#about .about_item:nth-child(3) .about_item-container {
+    padding: 40px 20px 40px 200px;
+    margin: 80px 50% 100px 0;
+}
+
+#about .about_item:nth-child(4) .about_item-container {
+    padding: 60px 100px 70px 120px;
+    margin: 60px 20% 100px 40%;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #292a70;
+    font-family: "BebasNeue Bold", sans-serif;
+    margin-bottom: 40px;
+}
+
+#about h4 {
+    font-size: 20px;
+    color: #292a70;
+    font-family: "Ubuntu-Bold", sans-serif;
+    width: 30%;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.about_program {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20% 100px 20%;
+}
+
+.about_program-div {
+    font-family: "Ubuntu-Light", sans-serif;
+    color: #292a70;
+    font-size: 12px;
+    margin: 0 20px;
+    width: 50%;
+    line-height: 17px;
+}
+
+.about_program-div p {
+    margin: 10px 0;
+}
+
+.about_program-div li {
+    font-family: "Ubuntu-Bold", sans-serif;
+    margin: 10px 0;
+}
