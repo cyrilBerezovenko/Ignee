@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgba(202, 202, 255, 0.74);
+    background: rgba(232, 232, 232, 0.74);
 }
 
 #header {
@@ -19,6 +19,7 @@ body {
     height: fit-content;
     padding: 4px;
     background: white;
+    z-index: 2;
 }
 
 #header_logo {
@@ -45,7 +46,11 @@ body {
 }
 
 #main {
-    margin-top: 100px;
+    margin: 100px 0;
+}
+
+section {
+    margin: 70px 0;
 }
 
 #about h2 {
@@ -147,7 +152,7 @@ body {
     font-size: 20px;
     color: #292a70;
     font-family: "Ubuntu-Bold", sans-serif;
-    width: 30%;
+    width: 40%;
     margin: 20px 0;
     line-height: 25px;
 }
@@ -175,4 +180,222 @@ body {
 .about_program-div li {
     font-family: "Ubuntu-Bold", sans-serif;
     margin: 10px 0;
+}
+
+.about_workflow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about_workflow span {
+    display: block;
+    width: 70%;
+    height: 600px;
+    background: #bec5f5;
+}
+
+#faq {
+    background: white;
+    padding: 40px 0;
+}
+
+#faq h2 {
+    font-family: "BebasNeue Book", sans-serif;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 200;
+    color: #52ccc1;
+}
+
+.faq_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.faq_menu {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #52ccc1;
+    font-family: "Ubuntu-Bold", sans-serif;
+    font-size: 13px;
+}
+
+.faq_menu-item {
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.faq_menu-item-selected {
+    background: #52ccc1;
+    color: white;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.faq_content {
+    width: 70%;
+}
+
+.faq_content_logo {
+    margin-right: 15px;
+}
+
+.faq_content_logo img {
+    min-width: 20px;
+    min-height: 20px;
+    vertical-align: top;
+    border-radius: 50%;
+    background: #52ccc1;
+}
+
+.faq_content-item {
+    border-bottom: #52ccc1 1px solid;
+    padding: 5px;
+    font-family: "Ubuntu-R", sans-serif;
+    font-size: 11px;
+    color: #505050;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.faq_content-item:first-child {
+    border-top: #52ccc1 1px solid;
+    border-bottom: #52ccc1 1px solid;
+}
+
+.faq_content-item h4 {
+    color: #52ccc1;
+    font-size: 15px;
+    font-family: "Ubuntu-R", sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.faq_content-item p {
+    margin: 10px 0 5px 0;
+}
+
+.startup {
+    margin: 20px 0;
+    position: relative;
+}
+
+.startup_background, .startup h3, .startup_container {
+    position: absolute;
+}
+
+.startup_background {
+    background: #52ccc1;
+    transform: rotate(-2deg);
+    width: 100%;
+    height: 350px;
+}
+
+.startup h3 {
+    top: 50px;
+    text-align: center;
+    width: 100%;
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.startup_container {
+    top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.startup_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.startup_logo {
+    margin: 0 15px;
+    text-align: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.startup_logo p {
+    margin-top: 15px;
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 28px;
+    color: #52ccc1;
+}
+
+.startup_center {
+    margin: 0 4% 0 8%;
+    border-radius: 50%;
+    min-width: 150px;
+    height: 150px;
+    background: midnightblue;
+    font-family: "MyriadPro-Regular", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+}
+
+.startup_center-container {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    font-size: 35px;
+    color: #f1e97f;
+}
+
+.startup_center-container p {
+    transform: rotate(-8deg);
+    margin: -13px 0;
+}
+
+.startup_center-container p:nth-child(2) {
+    margin-left: 8px;
+}
+
+.startup_center-container p:nth-child(3) {
+    margin-left: 10px;
+}
+
+.startup_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Ubuntu-Bold", sans-serif;
+    width: fit-content;
+}
+
+.startup_right-item {
+    color: midnightblue;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.startup_right-center {
+    color: midnightblue;
+    font-size: 25px;
+    padding: 15px 60px;
+    background: #f1e97f;
+    border-radius: 6px;
+    box-shadow: 0 0 10px;
 }
