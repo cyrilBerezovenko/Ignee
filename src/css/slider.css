@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", sans-serif;
 }
 
 .slider {
@@ -14,19 +13,20 @@
 
 .slider__caption {
     width: 100px;
-    height: 210px;
-    background: #f7ad23;
+    height: 266px;
     position: relative;
     margin-right: 40px;
 }
 
 p.slider__caption-text {
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 35px;
     text-transform: uppercase;
     color: white;
     position: absolute;
     font-weight: bold;
-    top: 50%;
-    left: 10%;
+    top: 42%;
+    left: -4%;
     transform: rotate(-90deg);
     transform-origin: center;
 }
@@ -34,14 +34,14 @@ p.slider__caption-text {
 .slider__wrapper {
     width: calc(100% - 150px);
     overflow: hidden;
-    height: 260px;
+    height: 375px;
     position: relative;
 }
 
 button#left-arrow {
     background: white;
     color: #f7d03d;
-    top: 27%;
+    top: 33%;
     border: 2px solid #ffbf4a;
     position: absolute;
     z-index: 2;
@@ -55,15 +55,25 @@ button#left-arrow {
 button#right-arrow {
     background: white;
     color: #f7d03d;
-    top: 27%;
+    top: 33%;
     border: 2px solid #ffbf4a;
     position: absolute;
     z-index: 2;
-    right: 4%;
+    right: 2%;
     border-radius: 50%;
     font-size: 32px;
     width: 70px;
     height: 70px;
+}
+
+button img {
+    margin-top:8px;
+    width: 18px;
+    height: auto;
+}
+
+#right-arrow img{
+    transform: rotate(180deg);
 }
 
 .slider__wrapper-content {
@@ -81,10 +91,10 @@ button#right-arrow {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-right: 50px;
-    width: 200px;
+    margin-right: 25px;
+    width: 250px;
     max-height: 100%;
-    min-width: 200px;
+    min-width: 250px;
 }
 
 .slider-item img {
@@ -93,20 +103,40 @@ button#right-arrow {
 
 img.slider__item-photo {
     width: 100%;
-    height: 180px;
+    height: 250px;
     position: relative;
 }
 
 p.slider__item-name {
-    background: #f7ad23;
-    padding: 20px 5px 0;
-    top: -10px;
+    font-family: "Ubuntu-Medium", sans-serif;
+    text-transform: uppercase;
+    padding: 13px 5px 0;
+    top: -15px;
     position: relative;
     color: white;
 }
 
 p.slider__item-position {
-    top: 215px;
+    font-family: "Ubuntu-Light", sans-serif;
+    top: 267px;
     position: absolute;
-    width: 150px;
+    width: 200px;
+    margin-left: 4px;
+    color: #464646;
+}
+
+#people .slider:nth-child(2) .slider__caption-text {
+    left: 18%;
+}
+
+#people .slider:nth-child(2) .slider__caption, #people .slider:nth-child(2) .slider__item-name {
+    background: #52ccc1;
+}
+
+#people .slider:nth-child(3) .slider__caption, #people .slider:nth-child(3) .slider__item-name {
+    background: #e89c26;
+}
+
+#people .slider:nth-child(4) .slider__caption, #people .slider:nth-child(4) .slider__item-name {
+    background: #3c507d;
 }

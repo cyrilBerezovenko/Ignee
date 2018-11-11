@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgba(232, 232, 232, 0.74);
+    background: white;
 }
 
 #header {
@@ -46,11 +46,17 @@ body {
 }
 
 #main {
-    margin: 100px 0;
+    margin: 68px 0;
 }
 
 section {
     margin: 70px 0;
+}
+
+#about {
+    background: rgba(232, 232, 232, 0.74);
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 #about h2 {
@@ -186,6 +192,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 
 .about_workflow span {
@@ -197,7 +204,6 @@ section {
 
 #faq {
     background: white;
-    padding: 40px 0;
 }
 
 #faq h2 {
@@ -284,8 +290,9 @@ section {
 }
 
 .startup {
-    margin: 20px 0;
+    margin: 75px 0 30% 0;
     position: relative;
+    height: fit-content;
 }
 
 .startup_background, .startup h3, .startup_container {
@@ -398,4 +405,22 @@ section {
     background: #f1e97f;
     border-radius: 6px;
     box-shadow: 0 0 10px;
+}
+
+#people {
+    margin-top: 330px;
+    background: white;
+}
+
+#people h2 {
+    text-align: center;
+    font-size: 80px;
+    color: #52ccc1;
+    font-family: "BebasNeue Book", sans-serif;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+#slide {
+    margin-bottom: 60px;
 }

@@ -1,16 +1,18 @@
-var sliderItem = document.querySelector('.slider-item');
-var sliderWrapperContent = document.querySelector('.slider__wrapper-content');
+var slide = document.querySelector('#slide');
 
-var wrapperWidth = document.querySelector('.slider__wrapper').clientWidth;
+var sliderItem = slide.querySelector('.slider-item');
+var sliderWrapperContent = slide.querySelector('.slider__wrapper-content');
+
+var wrapperWidth = slide.querySelector('.slider__wrapper').clientWidth;
 var sliderItemMargin = parseInt(getComputedStyle(sliderItem).marginRight);
 
 var startStep = Math.floor(wrapperWidth / (sliderItem.clientWidth + sliderItemMargin));
-var lastStep = document.getElementsByClassName('slider-item').length;
+var lastStep = slide.getElementsByClassName('slider-item').length;
 var stepSize = sliderItem.clientWidth + sliderItemMargin;
 var currentStep = startStep;
 
-var leftButton = document.querySelector('#left-arrow');
-var rightButton = document.querySelector('#right-arrow');
+var leftButton = slide.querySelector('#left-arrow');
+var rightButton = slide.querySelector('#right-arrow');
 
 rightButton.onclick = moveLeft;
 leftButton.onclick = moveRight;
