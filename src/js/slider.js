@@ -8,7 +8,7 @@ var sliderItemMargin = parseInt(getComputedStyle(sliderItem).marginRight);
 
 var startStep = Math.floor(wrapperWidth / (sliderItem.clientWidth + sliderItemMargin));
 var lastStep = slide.getElementsByClassName('slider-item').length;
-var stepSize = sliderItem.clientWidth + sliderItemMargin;
+const stepSize = sliderItem.clientWidth + sliderItemMargin;
 var currentStep = startStep;
 
 var leftButton = slide.querySelector('#left-arrow');

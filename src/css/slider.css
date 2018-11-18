@@ -50,6 +50,8 @@ button#left-arrow {
     font-size: 32px;
     width: 70px;
     height: 70px;
+    cursor: pointer;
+    outline: none;
 }
 
 button#right-arrow {
@@ -64,6 +66,8 @@ button#right-arrow {
     font-size: 32px;
     width: 70px;
     height: 70px;
+    cursor: pointer;
+    outline: none;
 }
 
 button img {
