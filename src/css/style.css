@@ -101,7 +101,7 @@ section {
 
 #about .about_item:nth-child(3) .about_item-heading {
     width: 25%;
-    padding: 20px 0px 15px 20px;
+    padding: 20px 0 15px 20px;
     margin-left: 15%;
     background: rgba(79, 204, 164, 0.71);
 }
@@ -423,4 +423,110 @@ section {
 
 #slide {
     margin-bottom: 60px;
+}
+
+#companies {
+    background:  #dbeef5;
+    padding-top: 30px;
+}
+
+#companies h2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "BebasNeue Book", sans-serif;
+    color: midnightblue;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+#partners, #startups {
+    display: flex;
+    flex-direction: row;
+}
+
+#startups {
+    background:#0e1e4c;
+    margin-top: 60px;
+}
+
+#partners h3, #startups h3 {
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 35px;
+    color: midnightblue;
+    writing-mode: vertical-lr;
+    transform: scale(-1,-1);
+    height: fit-content;
+    max-height: fit-content;
+    margin: 50px 70px 50px 20px;
+}
+
+#startups h3 {
+    color: white;
+}
+
+.companies_logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.companies_logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companies_logo {
+    display: inline-block;
+    background: #95a2a9;
+    border-radius: 50%;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+
+.companies_logo p {
+    margin-top: 16px;
+    font-size: 27px;
+    font-family: "BebasNeue Bold", sans-serif;
+    color: #dbeef5;
+}
+
+#startups .companies_logos {
+    width: 30%;
+}
+
+#startups .companies_logo p{
+    color: #0e1e4c;
+}
+
+#startups_right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+    vertical-align: middle;
+    margin-left: 150px;
+    font-size: 24px;
+}
+
+.startups_right-item {
+    font-family: "Ubuntu-Medium", sans-serif;
+    font-size: 24px;
+    height: fit-content;
+}
+
+.startups_right-item:first-child {
+    background: #f1e97f;
+    border-radius: 6px;
+    padding: 12px 60px;
+    color: #0e1e4c;
+    font-weight: bold;
+}
+
+.startups_right-item:nth-child(2) {
+    padding: 12px 40px;
+    color: white;
 }
