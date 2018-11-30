@@ -301,7 +301,7 @@ section {
 
 .startup_background {
     background: #52ccc1;
-    transform: rotate(-2deg);
+    /*transform: rotate(-2deg);*/
     width: 100%;
     height: 350px;
 }
@@ -428,6 +428,7 @@ section {
 #companies {
     background:  #dbeef5;
     padding-top: 30px;
+    margin-bottom: 0;
 }
 
 #companies h2 {
@@ -529,4 +530,161 @@ section {
 .startups_right-item:nth-child(2) {
     padding: 12px 40px;
     color: white;
+}
+
+#media {
+    background: #52ccc1;
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+#media h2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "BebasNeue Book", sans-serif;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.media_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: fit-content;
+}
+
+.media_container h3 {
+    font-family: "BebasNeue Bold", sans-serif;
+    font-size: 35px;
+    color: white;
+    writing-mode: vertical-lr;
+    transform: scale(-1,-1);
+    margin: 65px 70px 50px 20px;
+}
+
+.media_container-item:nth-child(2) img {
+    width: 70px;
+    height: auto;
+    margin: 38% 168px 150px 115px;
+}
+
+.media_list {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.media_list h4 {
+    color: midnightblue;
+    position: absolute;
+    background: rgba(241, 233, 127, 0.75);
+    padding: 1% 2% 0 60px;
+    font-family: "Ubuntu-Bold", sans-serif;
+    font-size: 25px;
+    top: -2%;
+    left: 23%;
+}
+
+.media_list p {
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 23%;
+    font-family: "Ubuntu-Light", sans-serif;
+    font-size: 16px;
+}
+
+.media_list footer {
+    color: midnightblue;
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    font-family: "Ubuntu-Bold", sans-serif;
+    font-size: 18px;
+}
+
+.media_list-item {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.media_list-item img {
+    width: 30%;
+    height: 30%;
+}
+
+.twitter_container {
+    background: #dbeef5;
+}
+
+.twitter_container .media_container-item h3 {
+    color: #0ba3ff;
+}
+
+.media_twitter {
+    margin-top: 40px;
+}
+
+.media_twitter hr {
+    border: 1px #73ccc3 solid;
+}
+
+.media_twitter-item {
+    font-family: "Ubuntu-R", sans-serif;
+    font-size: 12px;
+    position: relative;
+    padding: 10px;
+    width: 580px;
+}
+
+.media_twitter-item img {
+    height: auto;
+    width: 10%;
+    /*position: absolute;*/
+}
+
+.media_twitter-item header {
+    top: 10%;
+    left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 80%;
+}
+
+.media_twitter-item > p {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 10%;
+}
+
+.media_twitter-item-name {
+    font-family: "Ubuntu-Bold", sans-serif;
+}
+
+.media_twitter-item span {
+    color: #73ccc3;
+    font-family: Ubuntu-R, sans-serif;
+    margin-left: 5px;
+}
+
+.media_twitter-item-time {
+    color: #11adcc;
+    margin-left: 5%;
+}
+
+.media_twitter-item a {
+    color: #11adcc;
+    text-decoration: none;
+}
+
+.media_twitter-item footer {
+    color: #73ccc3;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
 }

@@ -201,6 +201,7 @@
 .foursquares__item-time {
     position: absolute;
     color: rgb(92,191,200);
+    font-family: Ubuntu-Bold, sans-serif;
 }
 
 .top-time {
