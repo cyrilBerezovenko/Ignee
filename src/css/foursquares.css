@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-#program  h2 {
+#program {
+    margin-top: 30px;
+}
+
+#program h2 {
     text-align: center;
     font-size: 80px;
     font-family: "BebasNeue Book", sans-serif;
